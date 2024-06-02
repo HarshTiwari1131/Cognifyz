@@ -1,0 +1,332 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: #fff url('cognifyz.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.header {
+    background: #da0a0a;
+    color: #41f10b;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 20;
+    padding: 10px 0px 0 20px;
+    width: 100%;
+    z-index: 100;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo img {
+    width: 180px;
+}
+
+.navbar {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: #7bf11a;
+    font-weight: 700;
+    text-decoration: none;
+    margin: 0 20px;
+    transition: 0.3s;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+#menu-icon {
+    display: none;
+    cursor: pointer;
+}
+
+.sec {
+    display: flex;
+    justify-content: space-between;
+    padding: 120px;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.sec-text {
+    color: #fdd006;
+    line-height: 3rem;
+}
+
+.sec-text h1 {
+    font-size: 40px;
+}
+
+.sec-image {
+    max-width: 100%;
+}
+
+.sec-image img {
+    max-width: 100%;
+    border: 5px solid #fff;
+    border-radius: 10px;
+}
+
+.about {
+    text-align: center;
+    padding: 60px;
+    color: #0e0d0d;
+    line-height: 1.5rem;
+}
+
+.about h2 {
+    font-size: 40px;
+    color: #fdd006;
+}
+
+.about p {
+    margin: 20px;
+}
+
+.about-button {
+    background-color: #0965f0;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.submission {
+    text-align: center;
+    padding: 60px;
+    color: #0e0d0d;
+    line-height: 1.5rem;
+}
+
+.submission h2 {
+    font-size: 40px;
+    color: #fdd006;
+}
+
+.submission p {
+    margin: 20px;
+}
+
+.form-container {
+    text-align: center;
+    padding: 100px 0;
+}
+
+.form {
+    background: rgb(218, 230, 255);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.form h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #fdd006;
+    transition:cubic-bezier(0.95, 0.05, 0.795, 0.035) ;
+}
+
+.form input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #05f756;
+    border-radius: 5px;
+}
+
+.form textarea {
+    height: 150px;
+}
+
+.form button {
+    background-color: #092bec;
+    color: #fff;
+    padding: 10px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.footer {
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 10px;
+    background: #da0a0a;
+    color: #41f10b;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        display: none;
+    }
+
+    #menu-icon {
+        display: block;
+        text-align: end;
+        margin-right: 20px;
+    }
+
+    nav ul.show {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo img {
+        width: 130px;
+    }
+
+    .sec {
+        padding: 80px 60px;
+        margin-top: 40px;
+    }
+
+    .sec-text {
+        line-height: 2rem;
+    }
+
+    .sec-text h1 {
+        font-size: 29px;
+    }
+
+    .sec-text p {
+        font-size: 15px;
+    }
+
+    .sec-image {
+        max-width: 50%;
+    }
+
+    .about {
+        padding: 30px;
+        line-height: 1.5rem;
+    }
+
+    .about h2 {
+        font-size: 35px;
+    }
+
+    .about p {
+        font-size: 15px;
+    }
+
+    .form h2 {
+        font-size: 35px;
+    }
+
+    .footer {
+        font-size: 14px;
+        padding: 8px;
+
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .navbar {
+        display: none;
+    }
+
+    #menu-icon {
+        display: block;
+        text-align: end;
+        margin-right: 20px;
+    }
+
+    nav ul.show {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo img {
+        width: 100px;
+    }
+
+    .sec {
+        padding: 100px 20px 30px 20px;
+        margin-top: 40px;
+    }
+
+    .sec-text {
+        line-height: 1.4rem;
+    }
+
+    .sec-text h1 {
+        font-size: 20px;
+    }
+
+    .sec-text p {
+        font-size: 9px;
+    }
+
+    .sec-image {
+        max-width: 60%;
+    }
+
+    .about {
+        padding: 30px;
+        line-height: 1rem;
+    }
+
+    .about h2 {
+        font-size: 25px;
+    }
+
+    .about p {
+        font-size: 12px;
+    }
+
+    .about-button {
+        font-size: 12px;
+        padding: 5px 5px;
+    }
+
+    .form-container {
+        padding: 100px 20px;
+    }
+
+    .form {
+        max-width: 300px;
+    }
+
+    .form textarea {
+        height: 100px;
+    }
+
+    .form h2 {
+        font-size: 25px;
+    }
+
+    .footer {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .form button {
+        padding: 5px 10px;
+    }
+
+    .footer {
+        font-size: 12px;
+        padding: 5px;
+    }
+}

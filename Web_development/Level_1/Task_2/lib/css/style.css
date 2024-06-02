@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background: #8b8d8a;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.logo img {
+    width: 180px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color:brown;
+}
+
+/* Content Styles */
+.content {
+    background-color: rgb(178, 231, 53);
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+}
+
+.content h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.para {
+    font-size: 18px;
+}
+
+.ju a {
+    display: inline-block;
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.ju a:hover {
+    background-color: #666;
+}
+
+.form {
+    text-align: center;
+    padding: 20px;
+}
+
+.form h2 {
+    font-size: 24px;
+    color: #3498db;
+}
+
+input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #3498db;
+    border-radius: 5px;
+}
+
+.btnn a {
+    display: inline-block;
+    background-color: #3498db;
+    color: #0f0a0a;
+    padding: 15px 25px;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btnn a:hover {
+    background-color: #ee1818;
+}
+
+.link {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.link a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.about {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.about h2 {
+    color: #3498db;
+    font-size: 24px;
+}
+
+.about p {
+    font-size: 18px;
+}
+
+.btncolr {
+    text-align: center;
+    padding: 20px;
+}
+
+.btncolr h3 {
+    font-size: 20px;
+    color: #3498db;
+}
+
+#colorChangeButton, #colorChangeButton2 {
+    display: inline-block;
+    background-color: #7fdb34;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#colorButton:hover, #colorChangeButton2:hover {
+    background-color: #db2a2a;
+}
+
+.calculate {
+    text-align: center;
+    padding: 20px;
+}
+
+.calculate label {
+    font-size: 18px;
+    color: #000000;
+}
+
+.calculate input[type="text"] {
+    width: 100px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #a1d2f3;
+    border-radius: 5px;
+}
+
+.calculate button {
+    display: inline-block;
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.calculate button:hover {
+    background-color: #666;
+}
